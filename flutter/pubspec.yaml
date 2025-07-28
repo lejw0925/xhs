@@ -1,0 +1,28 @@
+name: xhs_flutter_api
+description: Flutter API interface for xiaohongshu (XHS) web scraping SDK
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  shelf_cors_headers: ^0.1.4
+  http: ^1.1.0
+  dio: ^5.3.2
+  json_annotation: ^4.8.1
+  equatable: ^2.0.5
+  uuid: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
